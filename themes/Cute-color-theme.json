@@ -6,7 +6,7 @@
 		"editor.foreground": "#333333",
 
 		"editorIndentGuide.background": "#888888",
-		"editorIndentGuide.activeBackground": "#ff0000",
+		"editorIndentGuide.activeBackground": "#ff8800",
 
 		
 		
@@ -40,6 +40,21 @@
 		//active forground not working?
 		"editorLineNumber.activeForeground": "#404142",
 		
+		// Peek view
+		"peekViewEditor.background": "#eeeeee",
+		"peekViewResult.background": "#dddddd",
+		"peekViewResult.lineForeground": "#111111",
+
+		// find / replace
+		"editorWidget.background": "#cccccc",
+		"editorWidget.resizeBorder": "#404142",
+
+		// panels
+		"panel.border": "#404142",
+		"panel.dropBorder": "#404142",
+		"panelTitle.activeForeground": "#404142",
+		"panelTitle.inactiveForeground": "#999999",
+		"panelTitle.activeBorder": "#04a3ff",
 
 		"minimap.background": "#fafafa"
 	},
