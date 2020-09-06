@@ -3,7 +3,45 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#fdfdfd",
-		"editor.foreground": "#333333"
+		"editor.foreground": "#333333",
+
+		"editorIndentGuide.background": "#888888",
+		"editorIndentGuide.activeBackground": "#ff0000",
+
+		
+		
+		//activity bar
+		"activityBar.background": "#404142",
+		"activityBar.activeBackground": "#212222",
+		
+		// tab well & tabs
+		// "editorGroupHeader.tabsBackground": "#808284",	
+		"editorGroup.border": "#808284",	
+		"editorGroupHeader.border": "#808284",
+		"editorGroupHeader.tabsBorder": "#808284",
+		
+		
+		"tab.activeBorder": "#04a3ff",
+		"tab.activeBorderTop": "#04a3ff",
+		
+		// "tab.activeForeground": "#111111",
+		// "tab.activeBackground": "#404142",
+		
+		// "tab.inactiveForeground": "#aaaaaa",
+		// "tab.inactiveBackground": "#404142",
+		
+		//scroll bar = ruler
+		"editorOverviewRuler.border": "#00ff00",
+		"editorOverviewRuler.background": "#dddddd",
+
+		// gutter = line numbers, breakpoints, bookmarks, location
+		"editorGutter.background": "#eff0f1",
+		"editorLineNumber.foreground": "#989694",
+		//active forground not working?
+		"editorLineNumber.activeForeground": "#404142",
+		
+
+		"minimap.background": "#fafafa"
 	},
 	"tokenColors": [
 		{
