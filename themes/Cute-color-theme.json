@@ -21,7 +21,9 @@
 			"scope": [
 				"punctuation.definition.comment.begin.documentation",
 				"punctuation.definition.comment.end.documentation",
-				"comment.block.documentation"
+				"punctuation.definition.comment.documentation",
+				"comment.block.documentation",
+				"comment.line.double-slash.documentation"
 			],
 			"settings": {
 				"foreground": "#000080"
@@ -31,15 +33,6 @@
 			"name": "Doxygen Tags",
 			"scope": [
 				"storage.type.class.doxygen"
-			],
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
-			"name": "Doxygen Inline",
-			"scope": [
-				"doxygen.comment.inline.prefix"
 			],
 			"settings": {
 				"foreground": "#0000ff"
