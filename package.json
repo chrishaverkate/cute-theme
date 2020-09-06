@@ -1,0 +1,28 @@
+{
+    "name": "cute-theme",
+    "displayName": "Cute Theme",
+    "description": "It's a \"Cute\" color theme based on another popular IDE",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cute",
+                "uiTheme": "vs",
+                "path": "./themes/Cute-color-theme.json"
+            }
+        ],
+        "grammars": [
+            {
+                "injectTo": ["source.c", "source.cpp"],
+                "scopeName": "doxygen.injection",
+                "path": "./syntaxes/doxygen.json"
+            }
+        ]
+    }
+}

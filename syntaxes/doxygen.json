@@ -1,0 +1,16 @@
+{
+    "scopeName": "doxygen.injection",
+    "injectionSelector": "L:punctuation.whitespace.comment.leading",
+    "patterns": [
+        {"include": "#doxygen-inline"}
+    ],
+    "repository": {
+        "doxygen-inline": {
+            "match": "(\/\/\/<)(.*$)",
+            "captures": {
+                "1": {"name": "doxygen.comment.inline.prefix"},
+                "2": {"name": "doxygen.comment.inline.content"}
+            }
+        }
+    }
+}
