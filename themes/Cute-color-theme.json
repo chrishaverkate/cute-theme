@@ -31,7 +31,6 @@
 		"tab.activeForeground": "#111111",
 		
 		//scroll bar = ruler
-		"editorOverviewRuler.border": "#00ff00",
 		"editorOverviewRuler.background": "#dddddd",
 
 		// gutter = line numbers, breakpoints, bookmarks, location
