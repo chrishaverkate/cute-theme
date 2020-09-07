@@ -15,7 +15,7 @@
 
 		// sidebar, explorer, run/debug, extensions, etc.
 		"sideBarTitle.foreground": "#ffffff",
-		"sideBar.background": "#404142",
+		"sideBar.background": "#caccce",
 		"sideBar.border": "#ffffff",
 		
 		// tab well & tabs
@@ -23,6 +23,7 @@
 		"editorGroup.border": "#808284",	
 		"editorGroupHeader.border": "#808284",
 		"editorGroupHeader.tabsBorder": "#808284",
+		"breadcrumb.foreground": "#aaaaaa",
 		
 		"tab.activeBorder": "#04a3ff",
 		"tab.activeBorderTop": "#04a3ff",
@@ -32,19 +33,22 @@
 		"tab.inactiveBackground": "#404142",
 		
 		//scroll bar = ruler
-		// "editorOverviewRuler.border": "#00ff00",
-		"editorOverviewRuler.background": "#dddddd",
+		"editorOverviewRuler.background": "#222222",
+		// TODO: lighten the actual scrollbar
+		"minimap.background": "#404142",
+		
 
 		// gutter = line numbers, breakpoints, bookmarks, location
-		"editorGutter.background": "#eff0f1",
+		"editorGutter.background": "#404142",
 		"editorLineNumber.foreground": "#989694",
 		//active forground not working?
-		"editorLineNumber.activeForeground": "#404142",
+		"editorLineNumber.activeForeground": "#888888",
 		
 		// Peek view
-		"peekViewEditor.background": "#eeeeee",
-		"peekViewResult.background": "#dddddd",
-		"peekViewResult.lineForeground": "#111111",
+		"peekViewEditor.background": "#606162",
+		"peekViewResult.background": "#606162",
+		"peekViewResult.lineForeground": "#eeeeee",
+		// TODO: more here!
 
 		// find / replace
 		"editorWidget.background": "#cccccc",
@@ -57,7 +61,10 @@
 		"panelTitle.inactiveForeground": "#999999",
 		"panelTitle.activeBorder": "#04a3ff",
 
-		"minimap.background": "#fafafa"
+		"terminal.foreground": "#cccccc",
+		"terminal.ansiBrightBlue": "#4cb8f78c",
+		"terminal.selectionBackground": "#ffffff"
+
 	},
 	"tokenColors": [
 		{
