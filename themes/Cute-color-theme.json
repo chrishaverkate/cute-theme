@@ -2,8 +2,81 @@
 	"name": "Cute",
 	"type": "light",
 	"colors": {
+		// General
+		"foreground": "#060402",
+		"contrastBorder": "#888888",
+		"contrastActiveBorder": "#3daee9",
+		"focusBorder": "#00000000",
+
+		// Editor
 		"editor.background": "#fdfdfd",
-		"editor.foreground": "#333333"
+		"editor.foreground": "#060402",
+
+		"editorWhitespace.foreground": "#c0c0c0",
+
+		"editorIndentGuide.background": "#cccccc",
+		"editorIndentGuide.activeBackground": "#ff8800",
+
+		//"editor.selectionForeground": "#fcfcfc",  // This doesn't work?
+		//"editor.selectionBackground": "#3daee9",
+
+		//scroll bar = ruler
+		"editorOverviewRuler.background": "#dddddd",
+
+		// gutter = line numbers, breakpoints, bookmarks, location
+		"editorGutter.background": "#eff0f1",
+		"editorLineNumber.foreground": "#777878",
+		//active foreground not working? It is, this is the line number for the currently selected line
+		"editorLineNumber.activeForeground": "#060402",
+
+		// Title bar
+		"titleBar.border": "#888888",
+
+		// Activity bar
+		"activityBar.background": "#404142",
+		"activityBar.activeBackground": "#060402",
+		"activityBarBadge.foreground": "#fdfdfd",
+		"activityBarBadge.background": "#3daee9",
+		"activityBar.activeBorder": "#fdfdfd",
+
+		// Sidebar, explorer, run/debug, extensions, etc.
+		"sideBar.background": "#fdfdfd",
+		"sideBarSectionHeader.background": "#eff0f1",
+
+		"list.inactiveSelectionBackground": "#f3f9fc",
+		"list.activeSelectionBackground": "#3daee9",
+
+		// Tab well & tabs
+		// "editorGroupHeader.tabsBackground": "#808284",
+		"editorGroup.border": "#888888",
+		"editorGroupHeader.tabsBorder": "#cccccc",
+
+		"tab.activeBorder": "#04a3ff",
+		"tab.activeBorderTop": "#04a3ff",
+		"tab.activeForeground": "#060402",
+		"tab.border": "#cccccc",
+
+		// Peek view
+		"peekViewEditor.background": "#eeeeee",
+		"peekViewResult.background": "#dddddd",
+		"peekViewResult.lineForeground": "#060402",
+
+		// Find / replace
+		"editorWidget.background": "#eeeeee",
+		"editorWidget.resizeBorder": "#04a3ff",
+
+		// Panels
+		"panel.border": "#888888",
+		"panel.dropBorder": "#404142",
+		"panelTitle.activeForeground": "#060402",
+		"panelTitle.inactiveForeground": "#888888",
+		"panelTitle.activeBorder": "#fdfdfd",
+		"panelInput.border": "#aaaaaa",
+
+		// Misc
+		"dropdown.border": "#aaaaaa",
+		"statusBar.border": "#00000000",
+		"minimap.background": "#fafafa",
 	},
 	"tokenColors": [
 		{
@@ -51,7 +124,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#333333"
+				"foreground": "#060402"
 			}
 		},
 		{
@@ -62,6 +135,16 @@
 			],
 			"settings": {
 				"foreground": "#808000"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"meta.preprocessor",
+				"keyword.control.directive"
+			],
+			"settings": {
+				"foreground": "#000080",
 			}
 		},
 		{
@@ -188,7 +271,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#060402"
 			}
 		},
 		{
