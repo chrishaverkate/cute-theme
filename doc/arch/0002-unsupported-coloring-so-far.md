@@ -30,5 +30,6 @@ What becomes easier or more difficult to do and any risks introduced by the chan
 1. [TextMate Language Grammars](https://macromates.com/manual/en/language_grammars)
 2. [VSCode Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
 3. [VSCode Grammars Contribution Point](https://code.visualstudio.com/api/references/contribution-points#contributes.grammars)
-4. [VSCode CPP Grammar](https://github.com/microsoft/vscode/blob/6c797984fb961fdc347677173e50742078d01bd1/extensions/cpp/syntaxes/cpp.tmLanguage.json#L1158-L1242)
-5. [VSCode CPP Grammar Fix](https://github.com/dstodev/vscode/commit/97ec7afc81a2ae9e3c9a547c8510d4227bc4ef08)
+4. [VSCode C Grammar](https://github.com/microsoft/vscode/blob/1d7b32b88049db0c3f05df8a3557f94ec0c51fc1/extensions/cpp/syntaxes/c.tmLanguage.json#L632-L716)
+5. [VSCode CPP Grammar](https://github.com/microsoft/vscode/blob/6c797984fb961fdc347677173e50742078d01bd1/extensions/cpp/syntaxes/cpp.tmLanguage.json#L1158-L1242)
+6. [VSCode CPP Grammar Fix](https://github.com/dstodev/vscode/commit/97ec7afc81a2ae9e3c9a547c8510d4227bc4ef08)

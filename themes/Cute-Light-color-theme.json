@@ -17,16 +17,12 @@
 		"editorIndentGuide.background": "#cccccc",
 		"editorIndentGuide.activeBackground": "#ff8800",
 
-		//"editor.selectionForeground": "#fcfcfc",  // This doesn't work?
-		//"editor.selectionBackground": "#3daee9",
-
 		//scroll bar = ruler
 		"editorOverviewRuler.background": "#dddddd",
 
 		// gutter = line numbers, breakpoints, bookmarks, location
 		"editorGutter.background": "#eff0f1",
 		"editorLineNumber.foreground": "#777878",
-		//active foreground not working? It is, this is the line number for the currently selected line
 		"editorLineNumber.activeForeground": "#060402",
 
 		// Title bar
@@ -47,7 +43,6 @@
 		"list.activeSelectionBackground": "#3daee9",
 
 		// Tab well & tabs
-		// "editorGroupHeader.tabsBackground": "#808284",
 		"editorGroup.border": "#888888",
 		"editorGroupHeader.tabsBorder": "#cccccc",
 
@@ -269,7 +264,11 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": "punctuation",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.section"
+			],
 			"settings": {
 				"foreground": "#060402"
 			}
