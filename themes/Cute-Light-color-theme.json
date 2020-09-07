@@ -1,61 +1,81 @@
 {
-	"name": "Cute Light",
+	"name": "Cute",
 	"type": "light",
 	"colors": {
-		"editor.background": "#fdfdfd",
-		"editor.foreground": "#333333",
+		// General
+		"foreground": "#060402",
+		"contrastBorder": "#888888",
+		"contrastActiveBorder": "#3daee9",
+		"focusBorder": "#00000000",
 
-		"editorIndentGuide.background": "#888888",
+		// Editor
+		"editor.background": "#fdfdfd",
+		"editor.foreground": "#060402",
+
+		"editorWhitespace.foreground": "#c0c0c0",
+
+		"editorIndentGuide.background": "#cccccc",
 		"editorIndentGuide.activeBackground": "#ff8800",
 
-		
-		//activity bar
-		"activityBar.background": "#404142",
-		"activityBar.activeBackground": "#212222",
-
-		// sidebar, explorer, run/debug, extensions, etc.
-		"sideBarTitle.foreground": "#000000",
-		"sideBar.background": "#ffffff",
-		"sideBar.border": "#404142",
-		
-		// tab well & tabs
-		// "editorGroupHeader.tabsBackground": "#808284",	
-		"editorGroup.border": "#808284",	
-		"editorGroupHeader.border": "#808284",
-		"editorGroupHeader.tabsBorder": "#808284",
-		
-		"tab.activeBorder": "#04a3ff",
-		"tab.activeBorderTop": "#04a3ff",
-		
-		"tab.activeForeground": "#111111",
-		
 		//scroll bar = ruler
-		"editorOverviewRuler.border": "#00ff00",
 		"editorOverviewRuler.background": "#dddddd",
 
-		// gutter = line numbers, breakpoints, bookmarks, location
+		//gutter = line numbers, breakpoints, bookmarks, location
 		"editorGutter.background": "#eff0f1",
-		"editorLineNumber.foreground": "#989694",
-		//active forground not working?
-		"editorLineNumber.activeForeground": "#404142",
-		
+		"editorLineNumber.foreground": "#777878",
+		"editorLineNumber.activeForeground": "#060402",
+
+		// Title bar
+		"titleBar.border": "#888888",
+
+		// Activity bar
+		"activityBar.background": "#404142",
+		"activityBar.activeBackground": "#060402",
+		"activityBarBadge.foreground": "#fdfdfd",
+		"activityBarBadge.background": "#3daee9",
+		"activityBar.activeBorder": "#fdfdfd",
+
+		// Sidebar, explorer, run/debug, extensions, etc.
+		"sideBar.background": "#fdfdfd",
+		"sideBarSectionHeader.background": "#eff0f1",
+
+		"list.inactiveSelectionBackground": "#f3f9fc",
+		"list.activeSelectionBackground": "#3daee9",
+
+		// Tab well & tabs
+		"editorGroup.border": "#888888",
+		"editorGroupHeader.tabsBorder": "#cccccc",
+		"breadcrumb.foreground": "#ff0000",
+
+		"tab.activeBorder": "#04a3ff",
+		"tab.activeBorderTop": "#04a3ff",
+		"tab.activeForeground": "#060402",
+		"tab.border": "#cccccc",
+
+		"tab.inactiveForeground": "#ff0000",
+		"tab.inactiveBackground": "#ff0000",
+
 		// Peek view
 		"peekViewEditor.background": "#eeeeee",
 		"peekViewResult.background": "#dddddd",
-		"peekViewResult.lineForeground": "#111111",
+		"peekViewResult.lineForeground": "#060402",
 
-		// find / replace
-		"editorWidget.background": "#cccccc",
-		"editorWidget.resizeBorder": "#404142",
+		// Find / replace
+		"editorWidget.background": "#eeeeee",
+		"editorWidget.resizeBorder": "#04a3ff",
 
-		// panels
-		"panel.border": "#404142",
+		// Panels
+		"panel.border": "#888888",
 		"panel.dropBorder": "#404142",
-		"panelTitle.activeForeground": "#404142",
-		"panelTitle.inactiveForeground": "#999999",
-		"panelTitle.activeBorder": "#04a3ff",
+		"panelTitle.activeForeground": "#060402",
+		"panelTitle.inactiveForeground": "#888888",
+		"panelTitle.activeBorder": "#fdfdfd",
+		"panelInput.border": "#aaaaaa",
 
-		"minimap.background": "#fafafa"
+		// Misc
+		"dropdown.border": "#aaaaaa",
+		"statusBar.border": "#00000000",
+		"minimap.background": "#fafafa",
 	},
 	"tokenColors": [
 		{
@@ -103,7 +123,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#333333"
+				"foreground": "#060402"
 			}
 		},
 		{
@@ -114,6 +134,16 @@
 			],
 			"settings": {
 				"foreground": "#808000"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"meta.preprocessor",
+				"keyword.control.directive"
+			],
+			"settings": {
+				"foreground": "#000080",
 			}
 		},
 		{
@@ -238,9 +268,13 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": "punctuation",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.section"
+			],
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#060402"
 			}
 		},
 		{

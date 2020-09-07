@@ -2,67 +2,82 @@
 	"name": "Cute Dark",
 	"type": "dark",
 	"colors": {
+		// General
+		"foreground": "#d6cf9a",
+		"contrastBorder": "#cccccc",
+		"contrastActiveBorder": "#ff0000",
+		"focusBorder": "#ff0000",
+
+		// Editor
 		"editor.background": "#2e2f30",
 		"editor.foreground": "#d6cf9a",
+
+		"editorWhitespace.foreground": "#ff0000",
 
 		"editorIndentGuide.background": "#888888",
 		"editorIndentGuide.activeBackground": "#ff8800",
 
-		
-		//activity bar
-		"activityBar.background": "#404142",
-		"activityBar.activeBackground": "#212222",
-
-		// sidebar, explorer, run/debug, extensions, etc.
-		"sideBarTitle.foreground": "#ffffff",
-		"sideBar.background": "#caccce",
-		"sideBar.border": "#ffffff",
-		
-		// tab well & tabs
-		"editorGroupHeader.tabsBackground": "#808284",	
-		"editorGroup.border": "#808284",	
-		"editorGroupHeader.border": "#808284",
-		"editorGroupHeader.tabsBorder": "#808284",
-		"breadcrumb.foreground": "#aaaaaa",
-		
-		"tab.activeBorder": "#04a3ff",
-		"tab.activeBorderTop": "#04a3ff",
-		
-		"tab.activeForeground": "#eeeeee",
-		"tab.inactiveForeground": "#aaaaaa",
-		"tab.inactiveBackground": "#404142",
-		
 		//scroll bar = ruler
 		"editorOverviewRuler.background": "#222222",
-		// TODO: lighten the actual scrollbar
-		"minimap.background": "#404142",
-		
 
-		// gutter = line numbers, breakpoints, bookmarks, location
+		//gutter = line numbers, breakpoints, bookmarks, location
 		"editorGutter.background": "#404142",
 		"editorLineNumber.foreground": "#989694",
-		//active forground not working?
 		"editorLineNumber.activeForeground": "#888888",
-		
-		// Peek view
+
+		// Title Bar
+		"titleBar.border": "#ff0000",
+
+		// Activity bar
+		"activityBar.background": "#404142",
+		"activityBar.activeBackground": "#212222",
+		"activityBarBadge.foreground": "#ff0000",
+		"activityBarBadge.background": "#ff0000",
+		"activityBar.activeBorder": "#ff0000",
+
+		// Sidebar, explorer, run/debug, extensions, etc.
+		"sideBar.background": "#caccce",
+		"sideBarSectionHeader.background": "#ff0000",
+
+		"list.inactiveSelectionBackground": "#ff0000",
+		"list.activeSelectionBackground": "#ff0000",
+
+		// Tab well & tabs
+		"editorGroup.border": "#808284",
+		"editorGroupHeader.tabsBorder": "#808284",
+		"breadcrumb.foreground": "#aaaaaa",
+
+		"tab.activeBorder": "#04a3ff",
+		"tab.activeBorderTop": "#04a3ff",
+		"tab.activeForeground": "#eeeeee",
+		"tab.border": "#ff0000",
+
+		"tab.inactiveForeground": "#aaaaaa",
+		"tab.inactiveBackground": "#404142",
+
+		// Peek view  // TODO: more here!
 		"peekViewEditor.background": "#606162",
 		"peekViewResult.background": "#606162",
 		"peekViewResult.lineForeground": "#eeeeee",
-		// TODO: more here!
 
-		// find / replace
+		// Find / replace
 		"editorWidget.background": "#cccccc",
 		"editorWidget.resizeBorder": "#404142",
 
-		// panels
+		// Panels
 		"panel.border": "#404142",
 		"panel.dropBorder": "#404142",
 		"panelTitle.activeForeground": "#eeeeee",
 		"panelTitle.inactiveForeground": "#999999",
 		"panelTitle.activeBorder": "#04a3ff",
+		"panelInput.border": "#ff0000",
 
-		//TODO invert "problems" panel selection colors		
+		// Misc
+		"dropdown.border": "#ff0000",
+		"statusBar.border": "#ff0000",
+		"minimap.background": "#404142",  // TODO: lighten the actual scrollbar
 
+		//TODO invert "problems" panel selection colors
 		"terminal.foreground": "#cccccc",
 		"terminal.ansiBrightBlue": "#4cb8f78c",
 		"terminal.selectionBackground": "#ffffff"
