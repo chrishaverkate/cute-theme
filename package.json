@@ -12,9 +12,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Cute",
+				"label": "Cute Light",
 				"uiTheme": "vs",
 				"path": "./themes/Cute-color-theme.json"
+			},
+			{
+				"label": "Cute Dark",
+				"uiTheme": "vs",
+				"path": "./themes/Cute-Dark-color-theme.json"
 			}
 		],
 		"grammars": [

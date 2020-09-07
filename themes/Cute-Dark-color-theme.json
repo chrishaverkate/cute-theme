@@ -1,9 +1,9 @@
 {
-	"name": "Cute",
-	"type": "light",
+	"name": "Cute Dark",
+	"type": "dark",
 	"colors": {
-		"editor.background": "#fdfdfd",
-		"editor.foreground": "#333333",
+		"editor.background": "#2e2f30",
+		"editor.foreground": "#d6cf9a",
 
 		"editorIndentGuide.background": "#888888",
 		"editorIndentGuide.activeBackground": "#ff8800",
@@ -23,7 +23,6 @@
 		"editorGroup.border": "#808284",	
 		"editorGroupHeader.border": "#808284",
 		"editorGroupHeader.tabsBorder": "#808284",
-		
 		
 		"tab.activeBorder": "#04a3ff",
 		"tab.activeBorderTop": "#04a3ff",
@@ -66,7 +65,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#a8abb0"
 			}
 		},
 		{
@@ -79,7 +78,7 @@
 				"comment.line.double-slash.documentation"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#65676a"
 			}
 		},
 		{
@@ -88,7 +87,7 @@
 				"storage.type.class.doxygen"
 			],
 			"settings": {
-				"foreground": "#0000ff"
+				"foreground": "#66a334"
 			}
 		},
 		{
@@ -104,7 +103,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#333333"
+				"foreground": "#eeeeee"
 			}
 		},
 		{
@@ -124,7 +123,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#808000"
+				"foreground": "#d69aa7"
 			}
 		},
 		{
@@ -145,7 +144,7 @@
 				"variable.other.property.static"
 			],
 			"settings": {
-				"foreground": "#ce5c00"
+				"foreground": "#9aa7d6"
 			}
 		},
 		{
@@ -155,7 +154,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#092e64"
+				"foreground": "#d6bb9a"
 			}
 		},
 		{
@@ -166,7 +165,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#00677c"
+				"foreground": "#6da7b3"
 			}
 		},
 		{
@@ -181,7 +180,7 @@
 			],
 			"settings": {
 				// "fontStyle": "bold",
-				"foreground": "#800080"
+				"foreground": "#ff8080"
 			}
 		},
 		{
@@ -206,21 +205,21 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#0378bd"
+				"foreground": "#279add"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#d69545"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
@@ -241,7 +240,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
