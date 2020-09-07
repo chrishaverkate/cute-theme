@@ -14,7 +14,11 @@
 			{
 				"label": "Cute Light",
 				"uiTheme": "vs",
+<<<<<<< HEAD
 				"path": "./themes/Cute-color-theme.json"
+=======
+				"path": "./themes/Cute-Light-color-theme.json"
+>>>>>>> cf826375ecabae680b1571d5b8c031a11ea86393
 			},
 			{
 				"label": "Cute Dark",
@@ -24,9 +28,14 @@
 		],
 		"grammars": [
 			{
-				"injectTo": ["source.c", "source.cpp"],
-				"scopeName": "doxygen.injection",
-				"path": "./syntaxes/doxygen.json"
+				"injectTo": ["source.cpp"],
+				"scopeName": "doxygen.cpp.injection",
+				"path": "./syntaxes/doxygen-cpp.json"
+			},
+			{
+				"injectTo": ["source.c"],
+				"scopeName": "doxygen.c.injection",
+				"path": "./syntaxes/doxygen-c.json"
 			}
 		]
 	}
