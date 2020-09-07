@@ -2,59 +2,69 @@
 	"name": "Cute",
 	"type": "light",
 	"colors": {
+		// Editor
 		"editor.background": "#fdfdfd",
 		"editor.foreground": "#333333",
 
-		"editorIndentGuide.background": "#888888",
+		"editorIndentGuide.background": "#cccccc",
 		"editorIndentGuide.activeBackground": "#ff8800",
 
-		
-		//activity bar
+		"contrastBorder": "#888888",
+		"contrastActiveBorder": "#3daee9",
+
+		// Title bar
+		"titleBar.border": "#888888",
+
+		// Activity bar
 		"activityBar.background": "#404142",
 		"activityBar.activeBackground": "#212222",
+		"list.activeSelectionBackground": "#3daee9",
 
-		// sidebar, explorer, run/debug, extensions, etc.
-		"sideBarTitle.foreground": "#000000",
-		"sideBar.background": "#ffffff",
-		"sideBar.border": "#404142",
-		
-		// tab well & tabs
-		// "editorGroupHeader.tabsBackground": "#808284",	
-		"editorGroup.border": "#808284",	
-		"editorGroupHeader.border": "#808284",
-		"editorGroupHeader.tabsBorder": "#808284",
-		
-		
+		// Sidebar, explorer, run/debug, extensions, etc.
+		"sideBarTitle.foreground": "#212222",
+		"sideBar.background": "#fdfdfd",
+
+		// Tab well & tabs
+		// "editorGroupHeader.tabsBackground": "#808284",
+		"editorGroup.border": "#888888",
+		"editorGroupHeader.tabsBorder": "#cccccc",
+
 		"tab.activeBorder": "#04a3ff",
 		"tab.activeBorderTop": "#04a3ff",
-		
 		"tab.activeForeground": "#111111",
-		
+		"tab.border": "#cccccc",
+
 		//scroll bar = ruler
 		"editorOverviewRuler.background": "#dddddd",
 
 		// gutter = line numbers, breakpoints, bookmarks, location
 		"editorGutter.background": "#eff0f1",
-		"editorLineNumber.foreground": "#989694",
-		//active forground not working?
-		"editorLineNumber.activeForeground": "#404142",
-		
+		"editorLineNumber.foreground": "#777878",
+		//active foreground not working? It is, this is the line number for the currently selected line
+		"editorLineNumber.activeForeground": "#212222",
+
 		// Peek view
 		"peekViewEditor.background": "#eeeeee",
 		"peekViewResult.background": "#dddddd",
 		"peekViewResult.lineForeground": "#111111",
 
-		// find / replace
-		"editorWidget.background": "#cccccc",
-		"editorWidget.resizeBorder": "#404142",
+		// Find / replace
+		"editorWidget.background": "#eeeeee",
+		"editorWidget.resizeBorder": "#04a3ff",
 
-		// panels
-		"panel.border": "#404142",
+		// Panels
+		"panel.border": "#888888",
 		"panel.dropBorder": "#404142",
-		"panelTitle.activeForeground": "#404142",
-		"panelTitle.inactiveForeground": "#999999",
-		"panelTitle.activeBorder": "#04a3ff",
+		"panelTitle.activeForeground": "#212222",
+		"panelTitle.inactiveForeground": "#888888",
+		"panelTitle.activeBorder": "#fdfdfd",
+		"panelInput.border": "#888888",
 
+
+		// Misc
+		"focusBorder": "#00000000",
+		"dropdown.border": "#888888",
+		"statusBar.border": "#00000000",
 		"minimap.background": "#fafafa"
 	},
 	"tokenColors": [
@@ -114,6 +124,16 @@
 			],
 			"settings": {
 				"foreground": "#808000"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"meta.preprocessor",
+				"keyword.control.directive"
+			],
+			"settings": {
+				"foreground": "#000080",
 			}
 		},
 		{
