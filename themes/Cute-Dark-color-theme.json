@@ -14,12 +14,12 @@
 		"activityBar.activeBackground": "#212222",
 
 		// sidebar, explorer, run/debug, extensions, etc.
-		"sideBarTitle.foreground": "#000000",
-		"sideBar.background": "#ffffff",
-		"sideBar.border": "#404142",
+		"sideBarTitle.foreground": "#ffffff",
+		"sideBar.background": "#404142",
+		"sideBar.border": "#ffffff",
 		
 		// tab well & tabs
-		// "editorGroupHeader.tabsBackground": "#808284",	
+		"editorGroupHeader.tabsBackground": "#808284",	
 		"editorGroup.border": "#808284",	
 		"editorGroupHeader.border": "#808284",
 		"editorGroupHeader.tabsBorder": "#808284",
@@ -27,10 +27,12 @@
 		"tab.activeBorder": "#04a3ff",
 		"tab.activeBorderTop": "#04a3ff",
 		
-		"tab.activeForeground": "#111111",
+		"tab.activeForeground": "#eeeeee",
+		"tab.inactiveForeground": "#aaaaaa",
+		"tab.inactiveBackground": "#404142",
 		
 		//scroll bar = ruler
-		"editorOverviewRuler.border": "#00ff00",
+		// "editorOverviewRuler.border": "#00ff00",
 		"editorOverviewRuler.background": "#dddddd",
 
 		// gutter = line numbers, breakpoints, bookmarks, location
