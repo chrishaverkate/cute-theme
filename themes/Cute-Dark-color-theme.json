@@ -57,9 +57,11 @@
 		// panels
 		"panel.border": "#404142",
 		"panel.dropBorder": "#404142",
-		"panelTitle.activeForeground": "#404142",
+		"panelTitle.activeForeground": "#eeeeee",
 		"panelTitle.inactiveForeground": "#999999",
 		"panelTitle.activeBorder": "#04a3ff",
+
+		//TODO invert "problems" panel selection colors		
 
 		"terminal.foreground": "#cccccc",
 		"terminal.ansiBrightBlue": "#4cb8f78c",
