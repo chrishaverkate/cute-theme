@@ -29,7 +29,7 @@
 		"titleBar.border": "#888888",
 
 		// Activity bar
-		"activityBar.background": "#404142",
+		"activityBar.background": "#404244",
 		"activityBar.activeBackground": "#060402",
 		"activityBarBadge.foreground": "#fdfdfd",
 		"activityBarBadge.background": "#3daee9",
@@ -39,8 +39,8 @@
 		"sideBar.background": "#fdfdfd",
 		"sideBarSectionHeader.background": "#eff0f1",
 
-		"list.inactiveSelectionBackground": "#f3f9fc",
 		"list.activeSelectionBackground": "#3daee9",
+		"list.inactiveSelectionBackground": "#f3f9fc",
 
 		// Tab well & tabs
 		"editorGroup.border": "#888888",
@@ -59,13 +59,13 @@
 		"peekViewResult.background": "#dddddd",
 		"peekViewResult.lineForeground": "#060402",
 
-		// Find / replace
+		// Find/replace
 		"editorWidget.background": "#eeeeee",
 		"editorWidget.resizeBorder": "#04a3ff",
 
 		// Panels
 		"panel.border": "#888888",
-		"panel.dropBorder": "#404142",
+		"panel.dropBorder": "#404244",
 		"panelTitle.activeForeground": "#060402",
 		"panelTitle.inactiveForeground": "#777878",
 		"panelTitle.activeBorder": "#00000000",
@@ -164,7 +164,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#ff0000"
 			}
 		},
 		{

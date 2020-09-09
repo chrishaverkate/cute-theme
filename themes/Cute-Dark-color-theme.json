@@ -3,81 +3,94 @@
 	"type": "dark",
 	"colors": {
 		// General
-		"foreground": "#d6cf9a",
-		"contrastBorder": "#cccccc",
-		"contrastActiveBorder": "#ff0000",
-		"focusBorder": "#ff0000",
+		"foreground": "#eff0f1",
+		"contrastBorder": "#7f7f7f",
+		"contrastActiveBorder": "#7f7f7f",
+		"focusBorder": "#00000000",
 
 		// Editor
 		"editor.background": "#2e2f30",
 		"editor.foreground": "#d6cf9a",
 
-		"editorWhitespace.foreground": "#ff0000",
+		"editor.selectionBackground": "#1d545c",
+		"editor.lineHighlightBackground": "#373737",
+
+		"editorWhitespace.foreground": "#bec0c2",
+
+		"editor.findMatchBackground": "#8a7f2c",
+		"editor.findMatchHighlightBackground": "#8a402c78",
 
 		"editorIndentGuide.background": "#888888",
-		"editorIndentGuide.activeBackground": "#ff8800",
+		"editorIndentGuide.activeBackground": "#3daee9",
 
 		//scroll bar = ruler
 		"editorOverviewRuler.background": "#222222",
 
 		//gutter = line numbers, breakpoints, bookmarks, location
-		"editorGutter.background": "#404142",
+		"editorGutter.background": "#404244",
 		"editorLineNumber.foreground": "#989694",
-		"editorLineNumber.activeForeground": "#888888",
+		"editorLineNumber.activeForeground": "#d6c540",
 
 		// Title Bar
-		"titleBar.border": "#ff0000",
+		"titleBar.border": "#7f7f7f",
 
 		// Activity bar
-		"activityBar.background": "#404142",
-		"activityBar.activeBackground": "#212222",
-		"activityBarBadge.foreground": "#ff0000",
-		"activityBarBadge.background": "#ff0000",
-		"activityBar.activeBorder": "#ff0000",
+		"activityBar.background": "#404244",
+		"activityBar.activeBackground": "#989694",
+		"activityBarBadge.foreground": "#2e2f30",
+		"activityBarBadge.background": "#ff8800",
+		"activityBar.activeBorder": "#2e2f30",
 
 		// Sidebar, explorer, run/debug, extensions, etc.
-		"sideBar.background": "#caccce",
-		"sideBarSectionHeader.background": "#ff0000",
+		"sideBar.background": "#2e2f30",
+		"sideBarSectionHeader.background": "#404244",
 
-		"list.inactiveSelectionBackground": "#ff0000",
-		"list.activeSelectionBackground": "#ff0000",
+
+		"list.activeSelectionBackground": "#454749",
+		"list.inactiveSelectionBackground": "#454749",
+		"list.hoverBackground": "#4A4C4E",
+		//"list.focusBackground": "#ff0000",
 
 		// Tab well & tabs
 		"editorGroup.border": "#808284",
 		"editorGroupHeader.tabsBorder": "#808284",
-		"breadcrumb.foreground": "#aaaaaa",
 
-		"tab.activeBorder": "#04a3ff",
-		"tab.activeBorderTop": "#04a3ff",
-		"tab.activeForeground": "#eeeeee",
-		"tab.border": "#ff0000",
+		"tab.activeBorder": "#ff8800",
+		"tab.activeBorderTop": "#ff8800",
+		"tab.activeForeground": "#eff0f1",
+		"tab.border": "#7f7f7f",
 
-		"tab.inactiveForeground": "#aaaaaa",
-		"tab.inactiveBackground": "#404142",
+		"tab.inactiveForeground": "#989694",
+		"tab.inactiveBackground": "#404244",
 
 		// Peek view  // TODO: more here!
-		"peekViewEditor.background": "#606162",
-		"peekViewResult.background": "#606162",
-		"peekViewResult.lineForeground": "#eeeeee",
+		"peekViewEditor.background": "#404244",
+		"peekViewResult.background": "#454749",
+		"peekViewResult.matchHighlightBackground": "#1d545c",
+		"peekViewResult.selectionBackground": "#606060",
+		"peekViewResult.selectionForeground": "#ffffff",
+		"peekViewResult.lineForeground": "#989694",
+		"peekView.border": "#ff8800",
+		"peekViewEditor.matchHighlightBackground": "#00000000",
+		"peekViewEditor.matchHighlightBorder": "#ff78ff",
 
-		// Find / replace
-		"editorWidget.background": "#cccccc",
-		"editorWidget.resizeBorder": "#404142",
+		// Find/replace
+		"editorWidget.background": "#404244",
+		"editorWidget.resizeBorder": "#404244",
 
 		// Panels
-		"panel.border": "#404142",
-		"panel.dropBorder": "#404142",
-		"panelTitle.activeForeground": "#eeeeee",
-		"panelTitle.inactiveForeground": "#999999",
-		"panelTitle.activeBorder": "#04a3ff",
+		"panel.border": "#404244",
+		"panel.dropBorder": "#404244",
+		"panelTitle.activeForeground": "#eff0f1",
+		"panelTitle.inactiveForeground": "#989694",
+		"panelTitle.activeBorder": "#ff8800",
 		"panelInput.border": "#ff0000",
 
 		// Misc
 		"dropdown.border": "#ff0000",
 		"statusBar.border": "#ff0000",
-		"minimap.background": "#404142",  // TODO: lighten the actual scrollbar
+		"minimap.background": "#404244",  // TODO: lighten the actual scrollbar
 
-		//TODO invert "problems" panel selection colors
 		"terminal.foreground": "#cccccc",
 		"terminal.ansiBrightBlue": "#4cb8f78c",
 		"terminal.selectionBackground": "#ffffff"
@@ -129,7 +142,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#eeeeee"
+				"foreground": "#d6cf9a"
 			}
 		},
 		{
@@ -139,7 +152,17 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#808000"
+				"foreground": "#45c6d6"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"meta.preprocessor",
+				"keyword.control.directive"
+			],
+			"settings": {
+				"foreground": "#ff6aad",
 			}
 		},
 		{
@@ -149,7 +172,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#d69aa7"
+				"foreground": "#ff8080"
 			}
 		},
 		{
@@ -161,7 +184,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#ff0000"
 			}
 		},
 		{
