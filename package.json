@@ -14,11 +14,7 @@
 			{
 				"label": "Cute Light",
 				"uiTheme": "vs",
-<<<<<<< HEAD
-				"path": "./themes/Cute-color-theme.json"
-=======
 				"path": "./themes/Cute-Light-color-theme.json"
->>>>>>> cf826375ecabae680b1571d5b8c031a11ea86393
 			},
 			{
 				"label": "Cute Dark",

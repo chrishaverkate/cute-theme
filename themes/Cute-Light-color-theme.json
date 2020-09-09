@@ -11,7 +11,6 @@
 		// Editor
 		"editor.background": "#fdfdfd",
 		"editor.foreground": "#060402",
-<<<<<<< HEAD:themes/Cute-Light-color-theme.json
 
 		"editorWhitespace.foreground": "#c0c0c0",
 
@@ -46,58 +45,15 @@
 		// Tab well & tabs
 		"editorGroup.border": "#888888",
 		"editorGroupHeader.tabsBorder": "#cccccc",
-		"breadcrumb.foreground": "#ff0000",
 
 		"tab.activeBorder": "#04a3ff",
 		"tab.activeBorderTop": "#04a3ff",
 		"tab.activeForeground": "#060402",
 		"tab.border": "#cccccc",
 
-		"tab.inactiveForeground": "#ff0000",
-		"tab.inactiveBackground": "#ff0000",
+		"tab.inactiveForeground": "#777878",
+		"tab.inactiveBackground": "#eff0f1",
 
-=======
-
-		"editorWhitespace.foreground": "#c0c0c0",
-
-		"editorIndentGuide.background": "#cccccc",
-		"editorIndentGuide.activeBackground": "#ff8800",
-
-		//scroll bar = ruler
-		"editorOverviewRuler.background": "#dddddd",
-
-		// gutter = line numbers, breakpoints, bookmarks, location
-		"editorGutter.background": "#eff0f1",
-		"editorLineNumber.foreground": "#777878",
-		"editorLineNumber.activeForeground": "#060402",
-
-		// Title bar
-		"titleBar.border": "#888888",
-
-		// Activity bar
-		"activityBar.background": "#404142",
-		"activityBar.activeBackground": "#060402",
-		"activityBarBadge.foreground": "#fdfdfd",
-		"activityBarBadge.background": "#3daee9",
-		"activityBar.activeBorder": "#fdfdfd",
-
-		// Sidebar, explorer, run/debug, extensions, etc.
-		"sideBar.background": "#fdfdfd",
-		"sideBarSectionHeader.background": "#eff0f1",
-
-		"list.inactiveSelectionBackground": "#f3f9fc",
-		"list.activeSelectionBackground": "#3daee9",
-
-		// Tab well & tabs
-		"editorGroup.border": "#888888",
-		"editorGroupHeader.tabsBorder": "#cccccc",
-
-		"tab.activeBorder": "#04a3ff",
-		"tab.activeBorderTop": "#04a3ff",
-		"tab.activeForeground": "#060402",
-		"tab.border": "#cccccc",
-
->>>>>>> cf826375ecabae680b1571d5b8c031a11ea86393:themes/Cute-color-theme.json
 		// Peek view
 		"peekViewEditor.background": "#eeeeee",
 		"peekViewResult.background": "#dddddd",
@@ -111,8 +67,8 @@
 		"panel.border": "#888888",
 		"panel.dropBorder": "#404142",
 		"panelTitle.activeForeground": "#060402",
-		"panelTitle.inactiveForeground": "#888888",
-		"panelTitle.activeBorder": "#fdfdfd",
+		"panelTitle.inactiveForeground": "#777878",
+		"panelTitle.activeBorder": "#00000000",
 		"panelInput.border": "#aaaaaa",
 
 		// Misc
