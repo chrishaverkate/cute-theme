@@ -156,7 +156,6 @@
 			}
 		},
 		{
-			// Don't know what this is yet
 			"name": "Language Constants",
 			"scope": [
 				"constant.language",
@@ -164,7 +163,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#800080"
 			}
 		},
 		{
