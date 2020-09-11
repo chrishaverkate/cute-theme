@@ -12,13 +12,13 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Cute",
+				"label": "Cute Light",
 				"uiTheme": "vs",
 				"path": "./themes/Cute-Light-color-theme.json"
 			},
 			{
 				"label": "Cute Dark",
-				"uiTheme": "vs",
+				"uiTheme": "vs-dark",
 				"path": "./themes/Cute-Dark-color-theme.json"
 			}
 		],
