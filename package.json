@@ -2,7 +2,8 @@
 	"name": "cute-theme",
 	"displayName": "Cute Theme",
 	"description": "It's a \"Cute\" color theme based on another popular IDE",
-	"version": "0.0.1",
+	"version": "0.9.0",
+	"publisher": "breadStick",
 	"engines": {
 		"vscode": "^1.48.0"
 	},
